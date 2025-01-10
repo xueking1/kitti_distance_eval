@@ -1,8 +1,3 @@
-# kitti_distance_eval
-The detection accuracy at different distances was evaluated for KITTI.
-
-Change from https://github.com/xiazhiyi99/kitti_object_eval_python_by_distance
-
 # kitti-object-eval-python
 **Note**: This is modified from [traveller59/kitti-object-eval-python](https://github.com/traveller59/kitti-object-eval-python)
 
@@ -97,3 +92,8 @@ gt_annos = kitti.get_label_annos(gt_path, val_image_ids)
 print(get_official_eval_result(gt_annos, dt_annos, 0)) # 6s in my computer
 print(get_coco_eval_result(gt_annos, dt_annos, 0)) # 18s in my computer
 ```
+
+# kitti_distance_eval
+The detection accuracy at different distances was evaluated for KITTI.
+
+Change from https://github.com/xiazhiyi99/kitti_object_eval_python_by_distance
